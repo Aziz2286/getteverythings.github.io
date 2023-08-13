@@ -1,0 +1,19 @@
+@media screen and (max-width: 677px){
+	.categories2{
+		display: inline-block;
+		width: 170%;
+	}
+	.categories2 .everything img{
+		height: 50px;
+		width: 50px;
+	}
+	.categories2 .everything{
+		font-size: 15px;
+	}
+	img{
+		margin-left: -1vh;
+	}
+	label{
+		font-size: 15px;
+	}
+}

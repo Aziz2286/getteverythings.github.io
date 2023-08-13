@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CheckOut</title>
+	<link rel="stylesheet" type="text/css" href="pagerepon.css">
+	<style type="text/css">
+		body{
+			background: lightgreen;
+		}
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		label{
+			font-family: monospace;
+			color: white;
+		}
+		input{
+			font-family: monospace;
+			color: lightgreen;
+			width: 60%;
+			border-radius: 8px;
+			margin: 5px;
+			border: none;
+			text-align: center;
+		}
+		select{
+			font-family: monospace;
+			color: lightgreen;
+			width: 60%;
+			border-radius: 8px;
+			margin: 5px;
+			border: none;
+			text-align: center;
+		}
+		#butt{
+			border: white 2px solid;
+			background: lightgreen;
+			color: white;
+			margin: 10px;
+		}
+		#butt:hover{
+			background: white;
+			border: none;
+			color: lightgreen;
+		}
+		img{
+			height: 100px;
+			width: 200px;
+			margin-top: 5vh;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body><center>
+<form>
+	<img src="C:\Users\HP\Desktop\Get Everything\banner.png"><br>
+	<label>______________________________________________________</label><br>
+			<label>Name</label><br>
+			<input type="text" name="name"><br>
+			<label>Mobile Number</label><br>
+			<input type="text" name="number"><br>
+			<label>E-mail</label><br>
+			<input type="email" name="email"><br>
+			<label>Your Product Code</label><br>
+			<select name="code">
+				<option>Select</option>
+				<option>E123</option>
+				<option>GO123</option>
+				<option>L123</option>
+				<option>P123</option>
+				<option>A123</option>
+				<option>G123</option>
+				<option>E12345</option>
+			</select><br>
+			<label>State</label><br>
+			<input type="text" name="state"><br>
+			<label>City/District</label><br>
+			<input type="city" name="city"><br>
+			<label>Address</label><br>
+			<input type="address" name="add"><br>
+			<label>Payment Type</label><br>
+			<select name="payment">
+				<option>Cash On Delivery</option>
+				<option>Online</option>
+			</select><br>
+			<input id="butt" type="submit" name="submit"><br>
+		</form>
+</body></center>
+</html>

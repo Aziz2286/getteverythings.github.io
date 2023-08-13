@@ -1,0 +1,429 @@
+@media screen and (max-width: 800px) {
+	.banner img{
+		height: 50px;
+		width: 200px;
+	}
+	.heading h1{
+		font-size: 15px;
+	}
+	.heading a img{
+		height: 25px;
+		width: 25px;
+		margin-left: 25vh;
+	}
+	.heading #logo{
+		margin-left: -1vh;
+	}
+	.heading{
+		padding: none;
+	}
+	.trending{
+		padding: none;
+	}
+	.hotdeals{
+		padding: none;
+	}
+	.hotdeals h1{
+		font-size: 18px;
+	}
+	.trending h1{
+		font-size: 18px;
+		margin-left: 15vh;
+	}
+	.hotdeals #main{
+		margin-left: 15vh;
+	}
+	.pen{
+		display: table-column;
+	}
+	.pen h1{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 900px){
+	.banner img{
+		height: 100px;
+		width: 300px;
+		margin-left: 115px;
+	}
+	.heading h1{
+		font-size: 18px;
+	}
+	.heading a img{
+		height: 40px;
+		width: 40px;
+		margin-left: 30vh;
+	}
+	.heading #logo{
+		margin-left: -63vh;
+	}
+	.heading{
+		padding-left: 64vh;
+	}
+	.trending{
+		padding-left: 64vh;
+	}
+	.hotdeals{
+		padding-left: 64vh;
+	}
+	.hotdeals h1{
+		font-size: 18px;
+	}
+	.trending h1{
+		font-size: 18px;
+		margin-left: -43vh;
+	}
+	.hotdeals #main{
+		margin-left: -43vh;
+	}
+	.pen{
+		display: table-row;
+	}
+	.pen h1{
+		font-size: 15px;
+	}
+	.categories{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -25vh;
+		float: right;
+	}
+	.categories1{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -50vh;
+		float: right;
+	}
+	.bottom img{
+		display: none;
+	}
+	.bottom #bott{
+		display: flex;
+		height: 150px;
+		width: 150px;
+		margin-right: -10vh;
+	}
+	.footer h1{
+		display: none;
+	}
+	.footer img{
+		margin-left: -49vh;
+	}
+	.footer a{
+		display: flex;
+		font-size: 18px;
+	}
+	.footer{
+		padding-left: 60vh;
+	}
+}
+@media screen and (max-width: 852px){
+	.banner img{
+		height: 100px;
+		width: 300px;
+		margin-left: 18px;
+	}
+	.heading h1{
+		font-size: 15px;
+	}
+	.heading a img{
+		height: 40px;
+		width: 40px;
+		margin-left: 19vh;
+	}
+	.heading #logo{
+		margin-left: -49vh;
+	}
+	.heading{
+		padding-left: 50vh;
+	}
+	.trending{
+		padding-left: 50vh;
+	}
+	.hotdeals{
+		padding-left: 50vh;
+	}
+	.hotdeals h1{
+		font-size: 18px;
+	}
+	.trending h1{
+		font-size: 18px;
+		margin-left: -36vh;
+	}
+	.hotdeals #main{
+		margin-left: -37vh;
+	}
+	.pen{
+		display: table-row;
+	}
+	.pen h1{
+		font-size: 15px;
+	}
+	.categories{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -28vh;
+		float: right;
+	}
+	.categories1{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -27vh;
+		float: right;
+	}
+	.bottom img{
+		display: none;
+	}
+	.bottom #bott{
+		display: flex;
+		height: 150px;
+		width: 150px;
+		margin-right: 3vh;
+	}
+	.footer h1{
+		display: none;
+	}
+	.footer img{
+		margin-left: -49vh;
+	}
+	.footer a{
+		display: flex;
+		font-size: 18px;
+	}
+	.footer{
+		padding-left: 50vh;
+	}
+}
+@media screen and (max-width: 915px){
+	.categories{
+		margin-right: -24vh;
+	}
+	.categories1{
+		margin-right: -32vh;
+	}
+}
+@media screen and (max-width: 654px){
+	.banner img{
+		height: 50px;
+		width: 200px;
+		margin-left: 18px;
+	}
+	.heading h1{
+		font-size: 11px;
+	}
+	.heading a img{
+		height: 25px;
+		width: 25px;
+		margin-left: 15vh;
+	}
+	.heading #logo{
+		margin-left: -42vh;
+	}
+	.heading{
+		padding-left: 43vh;
+	}
+	.trending{
+		padding-left: 44vh;
+	}
+	.hotdeals{
+		padding-left: 43vh;
+	}
+	.hotdeals h1{
+		font-size: 14px;
+	}
+	.trending h1{
+		font-size: 14px;
+		margin-left: -33vh;
+	}
+	.hotdeals #main{
+		margin-left: -33vh;
+	}
+	.pen{
+		display: table-row;
+	}
+	.pen h1{
+		font-size: 15px;
+	}
+	.categories{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -28vh;
+		float: right;
+	}
+	.categories1{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -27vh;
+		float: right;
+	}
+	.bottom img{
+		display: none;
+	}
+	.bottom #bott{
+		display: none;
+	}
+	.footer h1{
+		display: none;
+	}
+	.footer img{
+		margin-left: -42vh;
+	}
+	.footer a{
+		display: flex;
+		font-size: 14px;
+	}
+	.footer{
+		padding-left: 43vh;
+	}
+}
+@media screen and (max-width: 915px){
+	.banner img{
+		height: 146px;
+		width: 420px;
+		margin-left: 1px;
+	}
+	.heading h1{
+		font-size: 20px;
+	}
+	.heading a img{
+		height: 40px;
+		width: 40px;
+		margin-left: 16vh;
+	}
+	.heading #logo{
+		margin-left: -49vh;
+	}
+	.heading{
+		padding-left: 50vh;
+	}
+	.trending{
+		padding-left: 56vh;
+	}
+	.hotdeals{
+		padding-left: 56vh;
+	}
+	.hotdeals h1{
+		font-size: 18px;
+	}
+	.trending h1{
+		font-size: 20px;
+		margin-left: -43vh;
+	}
+	.hotdeals #main{
+		margin-left: -43vh;
+	}
+	.pen{
+		display: table-row;
+	}
+	.pen h1{
+		font-size: 15px;
+	}
+	.categories{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -25vh;
+		float: right;
+	}
+	.categories1{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -33vh;
+		float: right;
+	}
+	.bottom img{
+		display: none;
+	}
+	.bottom #bott{
+		display: flex;
+		height: 150px;
+		width: 150px;
+		margin-right: 0vh;
+	}
+	.footer h1{
+		display: none;
+	}
+	.footer img{
+		margin-left: -49vh;
+	}
+	.footer a{
+		display: flex;
+		font-size: 20px;
+	}
+	.footer{
+		padding-left: 54vh;
+	}
+}
+@media screen and (max-width: 720px){
+	.banner img{
+		height: 100px;
+	    width: 370px;
+	    margin-left: 18px;
+	}
+	.heading h1{
+		font-size: 25px;
+	}
+	.heading a img{
+		height: 50px;
+		width: 50px;
+		margin-left: 30vh;
+	}
+	.heading #logo{
+		margin-left: -42vh;
+	}
+	.heading{
+		padding-left: 43vh;
+	}
+	.trending{
+		padding-left: 44vh;
+	}
+	.hotdeals{
+		padding-left: 43vh;
+	}
+	.hotdeals h1{
+		font-size: 25px;
+	}
+	.trending h1{
+		font-size: 25px;
+		margin-left: -20vh;
+	}
+	.hotdeals #main{
+		margin-left: -20vh;
+	}
+	.pen{
+		display: table-row;
+	}
+	.pen h1{
+		font-size: 15px;
+	}
+	.categories{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -22vh;
+		float: right;
+	}
+	.categories1{
+		font-size: 15px;
+		display: table-row;
+		margin-right: -43vh;
+		float: right;
+	}
+	.bottom img{
+		display: none;
+	}
+	.bottom #bott{
+		display: none;
+	}
+	.footer h1{
+		display: none;
+	}
+	.footer img{
+		margin-left: -42vh;
+	}
+	.footer a{
+		display: flex;
+		font-size: 25px;
+	}
+	.footer{
+		padding-left: 43vh;
+	}
+}
