@@ -4,8 +4,561 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pen</title>
-	<link rel="stylesheet" type="text/css" href="C:\Users\HP\Desktop\Get Everything\style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css">
+		*{
+	margin: 0;
+	padding: 0;
+}
+.heading{
+	background: lightgreen;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	border-bottom: 2px solid green;
+}
+.heading #logo{
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+}
+.heading h1{
+	color: white;
+	font-family: monospace;
+}
+.heading a img{
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	margin-left: 145vh;
+}
+.banner img{
+	height: 250px;
+	width: 850px;
+	border-radius: 15px;
+	margin: 10px;
+}
+.hotdeals{
+	background: lightgreen;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.hotdeals h1{
+	font-family: monospace;
+	color: white;
+}
+.hotdeals #main{
+	margin-left: 90vh;
+	height: 50px;
+	width: 50px;
+}
+.trending img{
+	height: 50px;
+	width: 50px;
+}
+.trending{
+	background: lightgreen;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.bestday{
+	background: lightgreen;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.trending h1{
+	font-family: monospace;
+	color: white;
+	margin: 4px;
+	margin-left: 90vh;
+}
+.pen{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.pencil{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.eraser{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.copy{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.book{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.notes{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.geometrybox{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.bag{
+	border: 2px solid green;
+	margin: 10px;
+	width: 30%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.pen h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.pencil h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.eraser h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.copy h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.book h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.bag h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.notes h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.geometrybox h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.categories{
+	display: flex;
+	margin: 20px;
+}
+.categories1{
+	display: flex;
+	margin: 20px;
+}
+.pen a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.pencil a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.eraser a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.copy a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.book a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.bag a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.notes a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.geometrybox a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.footer{
+	background: lightgreen;
+	align-items: center;
+	display: flex;
+	border-top: 2px solid green;
+}
+.footer h1{
+	color: white;
+	font-family: monospace;
+	font-size: 30px;
+	font-weight: bolder;
+	margin: 5px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-family: monospace;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 25px;
+}
+.everything{
+	border: 2px solid green;
+	margin: 10px;
+	width: 50%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.everything h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.goldex h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.goldex{
+	border: 2px solid green;
+	margin: 10px;
+	width: 80%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.linc{
+	border: 2px solid green;
+	margin: 10px;
+	width: 80%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.linc h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.pentonic h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.pentonic{
+	border: 2px solid green;
+	margin: 10px;
+	width: 80%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.agni{
+	border: 2px solid green;
+	margin: 10px;
+	width: 80%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.agni h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.galaxy h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.galaxy{
+	border: 2px solid green;
+	margin: 10px;
+	width: 80%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.everythings h1{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.everythings{
+	border: 2px solid green;
+	margin: 10px;
+	width: 80%;
+	height: 70%;
+	background: lightgreen;
+	float: left;
+	border-radius: 14px;
+}
+.categories2{
+	display: inline-block;
+	margin: 20px;
+}
+.everythings button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.everything button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.linc button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.pen button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.pentonic button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.goldex button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.galaxy button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.agni button{
+	background: green;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 70%;
+	margin: 10px;
+}
+.form1{
+	background: limegreen;
+	display: none;
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 40%; /* Full width */
+	height: 60%; /* Full height */
+	overflow: auto;
+	margin: 25vh;
+	margin-bottom: 80vh;
+	margin-left:60vh;
+	border-radius: 15px;
+	border: 2px solid white;
+	box-shadow: 4px 9px 13px 17px darkgrey;
+}
+.form1 form label{
+	color: white;
+	margin: 10px;
+	font-family: monospace;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.form1 form input{
+	width: 80%;
+	border-radius: 8px;
+	font-size: 25px;
+	font-family: monospace;
+	font-weight: bolder;
+}
+.form1 form button{
+	font-size: 25px;
+	background: red;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family: monospace;
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 80%;
+	margin: 10px;
+}
+.form1 form select{
+	color: black;
+	border: 2px solid green;
+	font-size: 25px;
+	font-family: monospace;
+	font-weight: bolder;
+	width: 80%;
+	margin: 5px;
+	border-radius: 8px;
+}
 		.categories2 .everything a{
 			color: white;
 			border: darkgreen 2px solid;
